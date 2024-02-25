@@ -241,3 +241,5 @@ def main(fn, **args):
     asyncio.run(fn(**args))
     toc = time.perf_counter()
     logger.debug(f"FINISHED WORKFLOW IN {toc - tic:0.4f} SECONDS")
+    
+    
